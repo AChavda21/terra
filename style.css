@@ -1,0 +1,41 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  section {
+    padding: 20px;
+  }
+  
+  .project, .review {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+  
+  footer {
+    background-color: #2ecc71;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  /* Basic animation for projects and reviews */
+  .project, .review {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .project:hover, .review:hover {
+    transform: scale(1.05);
+  }
+  
